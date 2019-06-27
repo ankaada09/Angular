@@ -1,0 +1,32 @@
+<router-outlet></router-outlet>
+<div class="row">
+  
+  <div class="col-lg-8 col-md-10 mx-auto">
+      <input type="text" placeholder="Searching by category" [(ngModel)]="searchTeam" >
+  
+    <div *ngFor="let po of post | orderBy:searchTeam" class="post-preview">
+   
+        <h2 class="post-title">
+           <a [routerLink]="['/post', po.Id]">{{po.Naziv | uppercase}}</a>
+         
+        </h2>
+        <h5 class="post-subtitle">
+         {{po.Tekst|lowercase}}
+        </h5>
+      
+      <p class="post-meta">Posted by
+        {{po.Korisnik}}
+        <br>
+        Date:
+        {{po.Datum | date:'dd/MM/y' }}
+        <br>
+        Category: {{po.Kategorija}}</p>
+
+       
+    </div>
+    <hr>
+  
+  </div>
+
+</div>
+

@@ -1,0 +1,17 @@
+<router-outlet></router-outlet>
+<div class="row">
+ 
+    
+    <div class="col-lg-8 col-md-10 mx-auto" *ngFor="let po of post">
+        <a href="#">
+            <img class="img-fluid" src="assets/img/{{po.Slika}}" alt="" >
+          </a>
+      <p>{{po.Naziv}}</p>
+
+      <p>{{po.Tekst}}</p>
+
+     
+      
+      <app-comentar></app-comentar>
+    </div>
+  </div>

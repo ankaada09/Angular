@@ -1,0 +1,39 @@
+[
+    {
+        "Id":1,
+        "Naziv":"3 Benefits of Minimalism In Interior Design.",
+        "Tekst":"  Design aficionado will know that minimalism is a growing trend among modern interior designers. But why is minimalism so popular? For those who might be unfamiliar with the term, minimalism is a design concept that strips things down to their bare essentials.",
+        "Korisnik":"Jesifer Albert",
+        "Datum":"on September 24, 2019",
+        "Kategorija":"DESIGN",
+        "Slika":"lamp-800.jpg"
+    },
+    {
+        "Id":2,
+        "Naziv":"10 Interesting Facts About Caffeine.",
+        "Tekst":" People may not think of caffeine as the most popular mood-altering drug in the world, even those who use it daily, by drinking coffee, tea, sodas or energy drinks as part of their routine.",
+        "Korisnik":"Mike Jonson",
+        "Datum":"on Octobar 03, 2019",
+        "Kategorija":"HEALTH",
+        "Slika":"tulips-800.jpg"
+    },
+    {
+        "Id":3,
+        "Naziv":" The Power of Music to Reduce Stress",
+        "Tekst":" Listening to music can have a tremendously relaxing effect on our minds and bodies, especially slow, quiet classical music. This type of music can have a beneficial effect on our physiological functions.",
+        "Korisnik":"Jenuy Milbert",
+        "Datum":"on May 15, 2019",
+        "Kategorija":"DESIGN",
+        "Slika":"music-800.jpg"
+    },
+    {
+        "Id":4,
+        "Naziv":"The Pomodoro Technique Really Works",
+        "Tekst":" Admittedly, I’ve never been big on productivity hacks and tricks. Instead, I keep things pretty simple. I take a look at my planner (yes, a real paper planner—not my phone), jot down a list of things I want to get done that day, and then start hustling.",
+        "Korisnik":"Melany Stuff",
+        "Datum":"on Aprile 10, 2019",
+        "Kategorija":"MANAGEMENT",
+        "Slika":"watch-800.jpg"
+    }
+
+]

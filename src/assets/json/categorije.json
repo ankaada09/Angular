@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "naziv" : "Travel"
+    },
+    {
+        "id": 2,
+        "naziv" : "LifeStyle"
+    },
+    {
+        "id": 3,
+        "naziv" : "Food"
+    }
+]

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {trigger,state,animate,transition,style}from '@angular/animations';
+import {CommentSercice} from'../comment.service';
 
 @Component({
   selector: 'app-comentar',
@@ -26,14 +27,24 @@ transition('*=>void',[animate(2000)]
   ]
 })
 export class ComentarComponent implements OnInit {
-  
+  post;
  
   items: any[] = [];
-  constructor() { }
+  constructor(private service:CommentSercice) { }
 
   ngOnInit() {
    
-   
+    this.service.dohvatiComment().subscribe(
+
+      podaci=>{
+        console.log(podaci);
+        this.post=podaci;
+      },
+      error => {
+        console.log(error);
+      }
+    );
+
 
   }
   messages='';
